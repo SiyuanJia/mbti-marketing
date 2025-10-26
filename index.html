@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTell：MBTI 营销文案创作站</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poppins:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css?v=3">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script type="module" src="script.js?v=3"></script>
+</head>
+<body class="antialiased text-gray-700 font-nunito">
+    <!-- 立体浮动气泡 -->
+    <div class="bubble bubble-1"></div>
+    <div class="bubble bubble-2"></div>
+    <div class="bubble bubble-3"></div>
+    <div class="bubble bubble-4"></div>
+    <div class="bubble bubble-5"></div>
+    <div class="bubble bubble-6"></div>
+    <div class="bubble bubble-7"></div>
+    <div class="bubble bubble-8"></div>
+    
+    <div class="min-h-screen flex flex-col items-center w-full px-4 sm:px-6 lg:px-8">
+        
+        <header class="w-full max-w-5xl mx-auto py-6 md:py-8">
+            <h1 class="font-pacifico text-3xl md:text-4xl text-white/90 tracking-wide">MTell</h1>
+        </header>
+
+        <main class="w-full max-w-5xl mx-auto flex-grow flex flex-col items-center text-center pt-4 md:pt-8">
+            
+            <section class="w-full">
+                <h2 class="font-poppins text-4xl md:text-5xl lg:text-6xl font-bold text-slate-800 leading-tight">
+                    MBTI 营销文案创作站
+                </h2>
+                <p class="mt-4 text-base md:text-xl text-slate-700 max-w-2xl mx-auto flex items-center justify-center gap-2">
+                     <span class="material-symbols-outlined text-base md:text-xl text-amber-500 flex-shrink-0">auto_awesome</span>
+                    <span>为产品注入独特人格，与用户深度共鸣</span>
+                </p>
+
+                <form action="./results.html" class="w-full max-w-2xl mx-auto mt-8 md:mt-10 text-left space-y-6">
+                    <div>
+                        <label for="product_brand" class="flex items-center gap-2 text-sm font-medium text-slate-700 mb-2">
+                             <span class="material-symbols-outlined text-base text-slate-600">sell</span>
+                             <span>产品品牌及品类</span>
+                        </label>
+                        <textarea id="product_brand" name="product_brand" rows="1" required class="auto-expand-textarea w-full p-4 border border-gray-300 rounded-xl shadow-sm focus:ring-2 focus:ring-[#97cfcf] focus:border-[#97cfcf] transition duration-200 bg-white bg-opacity-70 resize-none overflow-hidden" placeholder="例如：森空，一个主打自然主义的香薰品牌"></textarea>
+                    </div>
+
+                    <div>
+                        <label for="product_features" class="flex items-center gap-2 text-sm font-medium text-slate-700 mb-2">
+                            <span class="material-symbols-outlined text-base text-slate-600">tips_and_updates</span>
+                            <span>产品核心特点介绍</span>
+                        </label>
+                        <textarea id="product_features" name="product_features" rows="1" required class="auto-expand-textarea w-full p-4 border border-gray-300 rounded-xl shadow-sm focus:ring-2 focus:ring-[#97cfcf] focus:border-[#97cfcf] transition duration-200 bg-white bg-opacity-70 resize-none overflow-hidden" placeholder="例如：采用天然植物精油，手工制作"></textarea>
+                    </div>
+
+                    <div class="text-center pt-4">
+                        <button type="submit" class="inline-block bg-[#97cfcf] text-white font-bold py-4 px-12 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                            创作文案
+                        </button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="w-full mt-20 md:mt-24 pb-16">
+                <h3 class="text-2xl md:text-3xl font-bold text-slate-800 mb-10 md:mb-12">创作案例</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
+                    
+                    <a href="case1.html" class="bg-white bg-opacity-50 rounded-2xl shadow-md overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 cursor-pointer">
+                        <img src="img1.png" alt="案例一" class="w-full h-48 object-cover">
+                        <div class="p-6 text-left">
+                            <p class="font-semibold text-gray-800">案例一：CPB钻光乳液，为肌肤注入光芒</p>
+                        </div>
+                    </a>
+
+                    <a href="case2.html" class="bg-white bg-opacity-50 rounded-2xl shadow-md overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 cursor-pointer">
+                        <img src="img2.png" alt="案例二" class="w-full h-48 object-cover">
+                        <div class="p-6 text-left">
+                            <p class="font-semibold text-gray-800">案例二：《小自然》绘本，带孩子触摸世界的心跳</p>
+                        </div>
+                    </a>
+
+                    <a href="case3.html" class="bg-white bg-opacity-50 rounded-2xl shadow-md overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 cursor-pointer">
+                        <img src="img3.png" alt="案例三" class="w-full h-48 object-cover">
+                        <div class="p-6 text-left">
+                            <p class="font-semibold text-gray-800">案例三：江小白，敬我们聊得来的局</p>
+                        </div>
+                    </a>
+
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const textareas = document.querySelectorAll('.auto-expand-textarea');
+
+            const autoResize = (textarea) => {
+                textarea.style.height = 'auto';
+                textarea.style.height = `${textarea.scrollHeight}px`;
+            };
+
+            textareas.forEach(textarea => {
+                textarea.addEventListener('input', () => autoResize(textarea));
+            });
+        });
+    </script>
+</body>
+</html>

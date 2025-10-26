@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>创作结果 - MTell</title>
+    <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Poppins:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=4">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script type="module" src="script.js?v=3"></script>
+</head>
+<body class="antialiased text-gray-700 font-nunito">
+    <!-- 立体浮动气泡 -->
+    <div class="bubble bubble-1"></div>
+    <div class="bubble bubble-2"></div>
+    <div class="bubble bubble-3"></div>
+    <div class="bubble bubble-4"></div>
+    <div class="bubble bubble-5"></div>
+    <div class="bubble bubble-6"></div>
+    <div class="bubble bubble-7"></div>
+    <div class="bubble bubble-8"></div>
+    
+    <div class="min-h-screen w-full px-4 sm:px-6 lg:px-8">
+        
+        <header class="w-full max-w-7xl mx-auto py-6 md:py-8 flex justify-between items-center">
+             <a href="index.html" class="font-pacifico text-3xl md:text-4xl text-white/90 tracking-wide">MTell</a>
+             <a href="index.html" class="flex items-center gap-2 text-slate-700 hover:text-[#97cfcf] transition-colors">
+                <i data-lucide="arrow-left" class="w-4 h-4"></i>
+                <span>返回首页</span>
+            </a>
+        </header>
+
+        <main class="w-full max-w-7xl mx-auto pt-8 md:pt-12 pb-16">
+            <div class="text-center mb-12 md:mb-16">
+                 <h2 class="font-poppins text-3xl md:text-4xl font-bold text-slate-800">正在加载创作结果...</h2>
+            </div>
+           
+            <!-- 动态渲染的卡片容器 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- 卡片将通过 JavaScript 动态生成 -->
+            </div>
+        </main>
+    </div>
+</body>
+</html>
